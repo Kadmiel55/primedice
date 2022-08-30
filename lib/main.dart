@@ -12,12 +12,12 @@ class JeuxDesScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.red,
+        backgroundColor: const Color.fromARGB(255, 255, 17, 0),
         appBar: AppBar(
           title: const Center(
             child: Text("DÉS"),
           ),
-          backgroundColor: Colors.red,
+          backgroundColor: const Color.fromARGB(255, 255, 17, 0),
         ),
         body: const JeuxDesScreene(),
       ),
